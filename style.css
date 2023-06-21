@@ -194,4 +194,11 @@ footer {
     ul{
         columns: 1;
     }
+    
+    #header {
+    width: 100px;
+}
+    .who {
+    margin-top: 150px;
+}
 }
