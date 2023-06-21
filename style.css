@@ -23,7 +23,7 @@ ul, p{
     position: fixed;
     /* Fixed position - sit on top of the page */
     top: 20px;
-    width: 150px;
+    width: 100px;
     /* Full width */
     transition: 0.2s;
     z-index: 999999;
@@ -195,9 +195,6 @@ footer {
         columns: 1;
     }
     
-    #header {
-    width: 100px;
-}
     .who {
     margin-top: 150px;
 }

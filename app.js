@@ -5,7 +5,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("header").style.width = "80px";
   } else {
-    document.getElementById("header").style.width = "150px";
+    document.getElementById("header").style.width = "100px";
   }
      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("header").style.opacity = "0.7";
