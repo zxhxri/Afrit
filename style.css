@@ -1,0 +1,197 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+        /*     padding: 10px;*/
+}
+
+main {
+    margin: 20px;
+}
+
+@font-face {
+    font-family: "Rafale";
+    src: url("Rafale-BG.otf") format("opentype");
+}
+
+ul, p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#header {
+    position: fixed;
+    /* Fixed position - sit on top of the page */
+    top: 20px;
+    width: 150px;
+    /* Full width */
+    transition: 0.2s;
+    z-index: 999999;
+}
+
+
+.lang {
+    font-family: 'Rafale';
+    display: inline-block;
+    float: right;
+    right: 20px;
+    top: 10px;
+    z-index: 999999;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.lang a {
+    text-decoration: none;
+    color: black;
+}
+
+.lang a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.lang a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    /*    width:100%;*/
+    font-family: 'Rafale';
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 35px;
+}
+
+.who {
+    margin-top: 130px;
+/*    margin-bottom: 40px;*/
+}
+
+.who img {
+    max-inline-size: 100%;
+    block-size: auto;
+    min-width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding-right: 2vw;
+    font-family: 'Rafale';
+    font-size: 18px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+figcaption {
+    font-family: 'Rafale';
+    font-size: 18px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+/*    margin-bottom: 40px;*/
+}
+
+.container figure {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.clients {
+/*    margin-bottom: 40px;*/
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-family: 'Rafale';
+    font-size: 18px;
+    padding-inline-start: 15px;
+    list-style-type: square;
+}
+
+.contact {
+    font-family: 'Rafale';
+    font-size: 18px;
+}
+
+.contact a {
+/*    text-decoration: none;*/
+    color: black;
+}
+
+.contact a:hover {
+/*    text-decoration: none;*/
+    color: grey;
+}
+
+.contact a:visited {
+/*    text-decoration: none;*/
+    color: black;
+}
+
+footer {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Rafale';
+    padding: 10px;
+    bottom: 0;
+/*    margin: 20;!important*/
+}
+
+@media (max-width: 800px) {
+  .column {
+    width: 100%;
+      padding-bottom: 10px;
+  }
+    
+   
+}
+
+
+@media (max-width: 500px) {
+  .column {
+    width: 100%;
+      padding-bottom: 10px;
+  }
+    
+    .container {
+    display:block;
+    
+}
+    
+    .container figure {
+    margin-bottom: 20px;
+}
+    
+    ul{
+        columns: 1;
+    }
+}
