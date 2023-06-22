@@ -5,6 +5,16 @@
         /*     padding: 10px;*/
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
 main {
     margin: 20px;
 }
@@ -75,6 +85,7 @@ ul, p{
     max-inline-size: 100%;
     block-size: auto;
     min-width: 100%;
+    pointer-events: none;
 }
 
 .column {
@@ -120,6 +131,7 @@ figcaption {
 .container img {
     max-width: 100%;
     border-radius: 10px;
+    pointer-events: none;
 }
 
 .clients {
@@ -132,8 +144,9 @@ ul {
     -moz-columns: 2;
     font-family: 'Rafale';
     font-size: 18px;
-    padding-inline-start: 15px;
+    padding-inline-start: 18px;
     list-style-type: square;
+    line-height: 22px;
 }
 
 .contact {
