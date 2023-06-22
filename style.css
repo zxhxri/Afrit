@@ -44,7 +44,8 @@ ul, p{
     font-family: 'Rafale';
     display: inline-block;
     float: right;
-    right: 20px;
+    right: 0px;
+    margin-right: 27px;
     top: 10px;
     z-index: 999999;
     position: absolute;
@@ -57,14 +58,16 @@ ul, p{
     color: black;
 }
 
-.lang a:hover {
-    text-decoration: none;
-    color: grey;
-}
+
 
 .lang a:visited {
     text-decoration: none;
     color: black;
+}
+
+.lang a:hover, .lang a:focus {
+    text-decoration: none;
+    color: grey;
 }
 
 .title {
