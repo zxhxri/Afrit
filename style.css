@@ -220,14 +220,16 @@ font-family: 'Rafale';
     color: black;
 }
 
-.credits a:hover {
-        text-decoration: none;
-    color: grey;
-}
+
 
 .credits a:visited {
         text-decoration: none;
     color: black;
+}
+
+.credits a:hover {
+        text-decoration: none;
+    color: grey;
 }
 
 
