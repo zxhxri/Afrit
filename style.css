@@ -16,9 +16,11 @@
     background: black;
 }
 
-main {
+body {
     margin: 20px;
 }
+
+
 
 @font-face {
     font-family: "Rafale";
@@ -47,8 +49,8 @@ p {
     display: inline-block;
     float: right;
     right: 0px;
-    margin-right: 27px;
-    top: 10px;
+    margin-right: 20px;
+    top: 20px;
     z-index: 999999;
     position: absolute;
     font-size: 15px;
@@ -114,7 +116,7 @@ footer a:focus {
 .column {
     float: left;
     width: 50%;
-    padding-right: 2vw;
+    padding-right: 1.2vw;
     font-family: 'Rafale';
     font-size: 18px;
 }
@@ -197,9 +199,11 @@ footer {
     border-radius: 5px;
     color: white;
     font-family: 'Rafale';
+/*    width: 100%;*/
 /*    height: 20px;*/
     padding: 10px;
     font-size: 15px;
+    margin-top: 55px;
 }
 
 footer span {
@@ -209,7 +213,7 @@ footer span {
 .credits{
 font-family: 'Rafale';  
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
@@ -252,7 +256,7 @@ font-family: 'Rafale';
 
 @media (max-width: 500px) {
     main {
-        margin: 10px;
+/*        margin: 10px;*/
     }
 
     footer {
