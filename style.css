@@ -2,17 +2,18 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
-        /*     padding: 10px;*/
+    /*     padding: 10px;*/
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: white;
-  background: black;
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: black;
 }
 
 ::selection {
-  color: white;
-  background: black;
+    color: white;
+    background: black;
 }
 
 main {
@@ -24,7 +25,8 @@ main {
     src: url("Rafale-BG.otf") format("opentype");
 }
 
-ul, p{
+ul,
+p {
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -49,7 +51,7 @@ ul, p{
     top: 10px;
     z-index: 999999;
     position: absolute;
-    font-size: 25px;
+    font-size: 15px;
 
 }
 
@@ -65,7 +67,24 @@ ul, p{
     color: black;
 }
 
-.lang a:hover, .lang a:focus {
+.lang a:hover,
+.lang a:focus {
+    text-decoration: none;
+    color: grey;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover,
+footer a:focus {
     text-decoration: none;
     color: grey;
 }
@@ -82,7 +101,7 @@ ul, p{
 
 .who {
     margin-top: 130px;
-/*    margin-bottom: 40px;*/
+    /*    margin-bottom: 40px;*/
 }
 
 .who img {
@@ -123,7 +142,7 @@ figcaption {
     grid-row-gap: 20px;
     justify-items: stretch;
     align-items: stretch;
-/*    margin-bottom: 40px;*/
+    /*    margin-bottom: 40px;*/
 }
 
 .container figure {
@@ -139,7 +158,7 @@ figcaption {
 }
 
 .clients {
-/*    margin-bottom: 40px;*/
+    /*    margin-bottom: 40px;*/
 }
 
 ul {
@@ -159,17 +178,17 @@ ul {
 }
 
 .contact a {
-/*    text-decoration: none;*/
+    /*    text-decoration: none;*/
     color: black;
 }
 
 .contact a:hover {
-/*    text-decoration: none;*/
+    /*    text-decoration: none;*/
     color: grey;
 }
 
 .contact a:visited {
-/*    text-decoration: none;*/
+    /*    text-decoration: none;*/
     color: black;
 }
 
@@ -178,52 +197,64 @@ footer {
     border-radius: 5px;
     color: white;
     font-family: 'Rafale';
+/*    height: 20px;*/
     padding: 10px;
-    bottom: 0;
-/*    margin: 20;!important*/
 }
 
+footer span {
+    float: right;
+}
+
+
 @media (max-width: 800px) {
-  .column {
-    width: 100%;
-      padding-bottom: 10px;
-  }
-    
-   
+    .column {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    footer span {
+        float: left;
+    }
+
+    footer {
+        height: 50px;
+        padding: 10px;
+    }
+
 }
 
 
 @media (max-width: 500px) {
     main {
-    margin: 10px;
-}
+        margin: 10px;
+    }
 
-    footer{
+    footer {
         margin-top: 20px;
     }
-    
-  .column {
-    width: 100%;
-      padding-bottom: 10px;
-  }
-    
+
+    .column {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
     .container {
-    display:block;
-    
-}
-    
+        display: block;
+
+    }
+
     .container figure {
-    margin-bottom: 20px;
-}
-    
-    ul{
+        margin-bottom: 20px;
+    }
+
+    ul {
         columns: 1;
     }
-    
+
     .who {
-    margin-top: 150px;
-}
-    
+        margin-top: 150px;
+    }
+
     .title {
         font-size: 47px;
     }
