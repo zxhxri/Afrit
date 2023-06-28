@@ -178,17 +178,17 @@ ul {
 }
 
 .contact a {
-    /*    text-decoration: none;*/
+/*        text-decoration: none;*/
     color: black;
 }
 
 .contact a:hover {
-    /*    text-decoration: none;*/
+/*        text-decoration: none;*/
     color: grey;
 }
 
 .contact a:visited {
-    /*    text-decoration: none;*/
+/*        text-decoration: none;*/
     color: black;
 }
 
@@ -199,10 +199,35 @@ footer {
     font-family: 'Rafale';
 /*    height: 20px;*/
     padding: 10px;
+    font-size: 15px;
 }
 
 footer span {
     float: right;
+}
+
+.credits{
+font-family: 'Rafale';  
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.credits a {
+        text-decoration: none;
+    color: black;
+}
+
+.credits a:hover {
+        text-decoration: none;
+    color: grey;
+}
+
+.credits a:visited {
+        text-decoration: none;
+    color: black;
 }
 
 
@@ -217,8 +242,7 @@ footer span {
     }
 
     footer {
-        height: 50px;
-        padding: 10px;
+   
     }
 
 }
